@@ -1,4 +1,4 @@
-# showcase-react-004
+# showcase-react
 
 This is a site to try out concepts before implementing them into larger projects.
 
