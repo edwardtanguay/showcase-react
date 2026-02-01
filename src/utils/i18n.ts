@@ -8,6 +8,7 @@ const resources = {
 			welcomeMessage: "Welcome to React and react-i18next!",
 			numberOfMessages_one: "You have {{count}} message.",
 			numberOfMessages_other: "You have {{count}} messages.",
+			invitation: "You are invited to <strong>join</strong> us!",
 		},
 	},
 	fr: {
@@ -16,6 +17,7 @@ const resources = {
 			welcomeMessage: "Bienvenue à React et react-i18next!",
 			numberOfMessages_one: "Vous avez {{count}} message.",
 			numberOfMessages_other: "Vous avez {{count}} messages.",
+			invitation: "Vous êtes invité à nous <strong>rejoindre</strong>!",
 		},
 	},
 };
