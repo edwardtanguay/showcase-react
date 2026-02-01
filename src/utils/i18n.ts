@@ -5,7 +5,7 @@ const resources = {
 	en: {
 		translation: {
 			title: "React Showcase",
-			welcomeMessage: "Welcome to React and react-i18next",
+			welcomeMessage: "Welcome to React and react-i18next!",
 			numberOfMessages_one: "You have {{count}} message.",
 			numberOfMessages_other: "You have {{count}} messages.",
 		},
@@ -13,7 +13,7 @@ const resources = {
 	fr: {
 		translation: {
 			title: "Démonstration React",
-			welcomeMessage: "Bienvenue à React et react-i18next",
+			welcomeMessage: "Bienvenue à React et react-i18next!",
 			numberOfMessages_one: "Vous avez {{count}} message.",
 			numberOfMessages_other: "Vous avez {{count}} messages.",
 		},
