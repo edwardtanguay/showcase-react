@@ -77,7 +77,7 @@ const menuItems = [
 	{
 		idCode: "translations",
 		title: "Translations",
-		description: "Demonstrates internationalization using react-i18next",
+		description: "Demonstrates internationalization using i18n",
 	},
 ];
 
