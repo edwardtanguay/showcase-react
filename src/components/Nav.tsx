@@ -65,12 +65,19 @@ const menuItems = [
 	{
 		idCode: "image-viewer",
 		title: "Image Viewer",
-		description: "show images, automatic flip, allow user to pause and flip",
+		description:
+			"show images, automatic flip, allow user to pause and flip",
 	},
 	{
 		idCode: "image-viewer2",
 		title: "Image Viewer2",
-		description: "same as image view but infinite scroll and showing prev/next images",
+		description:
+			"same as image view but infinite scroll and showing prev/next images",
+	},
+	{
+		idCode: "translations",
+		title: "Translations",
+		description: "Demonstrates internationalization using react-i18next",
 	},
 ];
 
@@ -110,19 +117,19 @@ export const Nav = () => {
 										<div key={index}>
 											{menuItem.idCode !==
 												currentMenuItem.idCode && (
-													<div className="mt-[.2rem]">
-														<NavLink
-															to={menuItem.idCode}
-															onClick={() =>
-																setShowMobileMenu(
-																	false
-																)
-															}
-														>
-															{menuItem.title}
-														</NavLink>
-													</div>
-												)}
+												<div className="mt-[.2rem]">
+													<NavLink
+														to={menuItem.idCode}
+														onClick={() =>
+															setShowMobileMenu(
+																false
+															)
+														}
+													>
+														{menuItem.title}
+													</NavLink>
+												</div>
+											)}
 										</div>
 									);
 								})}

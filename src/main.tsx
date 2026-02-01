@@ -18,6 +18,7 @@ import { PageExpandableText } from "./pages/PageExpandableText.tsx";
 import { PageImageStack } from "./pages/PageImageStack.tsx";
 import { PageImageViewer } from "./pages/PageImageViewer.tsx";
 import { PageImageViewer2 } from "./pages/PageImageViewer2.tsx";
+import { PageTranslations } from "./pages/PageTranslations.tsx";
 
 
 const router = createBrowserRouter([
@@ -77,6 +78,10 @@ const router = createBrowserRouter([
 			{
 				path: "image-viewer2",
 				element: <PageImageViewer2/>
+			},
+			{
+				path: "translations",
+				element: <PageTranslations/>
 			},
 			{
 				path: "/",
