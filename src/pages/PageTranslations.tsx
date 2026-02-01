@@ -14,7 +14,7 @@ export const PageTranslations = () => {
 			<p>
 				<Trans
 					i18nKey="invitation"
-					components={[<span className="text-red-700 font-bold" />]}
+					components={[<span className="text-red-700 font-bold" />, <span className="text-green-900 font-bold" />]}
 				/>
 			</p>
 		</div>
