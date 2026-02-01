@@ -1,0 +1,7 @@
+{
+	"title": "React Showcase",
+	"welcomeMessage": "Welcome to React and react-i18next!",
+	"numberOfMessages_one": "You have {{count}} message.",
+	"numberOfMessages_other": "You have {{count}} messages.",
+	"invitation": "You are invited to <0>join</0> us at <1>any time</1>!"
+}

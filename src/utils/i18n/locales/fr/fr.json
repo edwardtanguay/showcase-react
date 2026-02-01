@@ -1,0 +1,7 @@
+{
+	"title": "Démonstration React",
+	"welcomeMessage": "Bienvenue à React et react-i18next!",
+	"numberOfMessages_one": "Vous avez {{count}} message.",
+	"numberOfMessages_other": "Vous avez {{count}} messages.",
+	"invitation": "Vous êtes invité à nous <0>rejoindre</0> <1>n'importe quand</1>!"
+}
